@@ -12,6 +12,8 @@ public class Database {
         this.recordList = new ArrayList<>();
 
         this.userList.add(new User("mrtest","Test", "Testsson", "lösen"));
+        this.userList.add(new User("Larssa2000","Lars", "Lerin", "Junior123"));
+        this.userList.add(new User("HockeyDanne","Daniel", "Sedin", "henrik=sämst"));
 
         this.recordList.add(new Record("Toto","Old is new","toto-1.jpg", 149));
         this.recordList.add(new Record("Excalibur","Live In Brocéliande","excalibur-1.jpg", 209));
