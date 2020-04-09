@@ -6,7 +6,7 @@ public class LoginDAO {
         Database database = new Database();
 
         for (User user: database.userList) {
-            if (user.getUserName().equals(userName)) {
+            if (user.getUserName().equalsIgnoreCase(userName)) {
                 if (user.getPassword().equals(password)) {
                     return user;
                 }
